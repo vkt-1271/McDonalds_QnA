@@ -38,7 +38,7 @@ This system helps reduce the workload of human staff by automatically handling c
    ```bash
    pip install -r requirements.txt
 
-3. **Set up API Key**
+3. Set up Gemini API Key 
 
 ## ▶️ Usage
 
