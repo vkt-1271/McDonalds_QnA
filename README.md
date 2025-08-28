@@ -10,7 +10,7 @@ This system helps reduce the workload of human staff by automatically handling c
 
 - ✅ Built on **Google Gemini API + LangChain** for natural Q&A  
 - ✅ Provides an **interactive Streamlit UI** for end users  
-- ✅ Uses **real CSV file of McDonald FAQs** as the knowledge base  
+- ✅ Uses **real CSV file of McDonald's USA FAQs** as the knowledge base  
 - ✅ Employs **HuggingFace Instructor Embeddings** for text vectorization  
 - ✅ Powered by **FAISS Vector Database** for fast semantic search  
 - ✅ Helps staff save time by automating repeated queries  
@@ -35,8 +35,19 @@ This system helps reduce the workload of human staff by automatically handling c
    cd mcdonald-qna
 
 2. **Install dependencies**
-  ```bash
-  pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+
+3. **Set up API Key**
+
+## ▶️ Usage
+
+1. **Run the Streamlit app**
+   ```bash
+   streamlit run main.py
+
+2. The web app will open in your browser.
+3. Type your question in the input box and hit Enter to get an answer (Knowledge-Base) instantly.
 
 ## 🙌 Acknowledgments
 
